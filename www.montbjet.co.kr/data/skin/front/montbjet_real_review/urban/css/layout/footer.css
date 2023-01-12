@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* footer css */
+
+#footer_wrap{border:0}
+#JD-Footer{margin:0 auto;text-align:center;padding-top:150px}
+#JD-Footer .cs_info{line-height:2;margin-bottom:35px;position:relative;}
+#JD-Footer .cs_info:before{content:'';width:1px;height:77px;background:#ddd;position:absolute;top:-125px;left:50%}
+#JD-Footer .cs_info .phone{color:#444;font-size:14px}
+#JD-Footer .cs_info .phone i{font-size:16px;margin-right:5px;position:relative;top:2px}
+#JD-Footer .company{line-height:2}
+#JD-Footer .company span+span{padding-left:18px}
+#JD-Footer .foot_menu{margin-top:35px}
+#JD-Footer .foot_menu li{display:inline-block;position:relative}
+#JD-Footer .foot_menu li:after{content:'';position:absolute;width:1px;height:13px;background:#ddd;top:2px;left:15px}
+#JD-Footer .foot_menu li a{color:#444!important;transition:all 0.35s ease;-webkit-transition:all 0.35s ease;-khtml-transition:all 0.35s ease;-ms-transition:all 0.35s ease;-o-transition:all 0.35s ease}
+#JD-Footer .foot_menu li+li a{padding-left:35px}
+#JD-Footer .foot_menu li a:hover{color:#999!important}
+#JD-Footer .sns_icon{margin:30px 0}
+#JD-Footer .sns_icon li{display:inline-block}
+#JD-Footer .sns_icon li+li{padding-left:10px}
+#JD-Footer .sns_icon li i{color:#222;font-size:18px;transition:all 0.35s ease;-webkit-transition:all 0.35s ease;-khtml-transition:all 0.35s ease;-ms-transition:all 0.35s ease;-o-transition:all 0.35s ease}
+#JD-Footer .sns_icon li:hover i{color:#999}
